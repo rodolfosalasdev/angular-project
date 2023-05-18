@@ -6,12 +6,14 @@ import { AppComponent } from './app.component';
 import { CardDefaultModule } from './shared/card-default/card-default.module';
 import { NavbarComponent } from './components/templete/navbar/navbar.component';
 import { HomeComponent } from './views/home/home.component';
+import { AngularComponent } from './views/angular/angular.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     NavbarComponent,
-    HomeComponent
+    HomeComponent,
+    AngularComponent
   ],
   imports: [
     BrowserModule,
