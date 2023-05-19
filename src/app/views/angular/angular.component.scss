@@ -1,0 +1,38 @@
+#angular {
+    margin: 1em;
+
+    .btn {
+        margin-top: 1em;
+    }
+
+    .code {
+        max-width: 340px;
+        min-width: 340px;
+        margin-right: 1em;
+    }
+
+    .cards-code {
+        display: flex;
+        // justify-content: space-between;
+        flex-wrap: wrap;
+
+        button {
+            margin-top: -10px;
+            float: right;
+        }
+    }
+
+    .align-content {
+        display: flex;
+        align-items: center;
+    }
+
+    a {
+        color: inherit;
+        // text-decoration: none;
+    }
+
+    a :hover{
+        cursor: pointer;
+    }
+}
